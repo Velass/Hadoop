@@ -4,13 +4,6 @@
 INPUT_FILE="Spotify_Most_Streamed_Songs.csv"
 OUTPUT_FILE="spotify.txt"
 
-# # Lancement des processus Hadoop
-# # Zookeeper lancé par défaut    # JPS et HQuorumPeer
-# start-dfs.sh                    # NameNode & SecondaryNameNode
-# start-yarn.sh                   # ResourceManager
-# start-hbase.sh                  # HMaster et HRegionServer
-# hbase-daemon.sh start thrift    # ThriftServer
-
 # Création du répertoire d'entrée et de sortie s'ils n'existent pas
 hdfs dfs -mkdir -p input
 hdfs dfs -mkdir -p output
